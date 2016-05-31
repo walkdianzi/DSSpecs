@@ -11,6 +11,9 @@
 
 pod repo add DSSPecs https://github.com/walkdianzi/DSSpecs.git
 
+## 更新仓库
+
+pod repo update DSSpecs
 
 ## 提交.podspec
 
