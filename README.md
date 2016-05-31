@@ -10,3 +10,14 @@
 ## 添加仓库
 
 pod repo add DSSPecs https://github.com/walkdianzi/DSSpecs.git
+
+
+## 提交.podspec
+
+pod repo push DSSpecs xxxx.podspec
+
+## 使用
+
+Podfile里加入
+
+source 'https://github.com/walkdianzi/DSSpecs.git'
