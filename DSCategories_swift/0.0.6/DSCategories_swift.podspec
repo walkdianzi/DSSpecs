@@ -93,7 +93,6 @@ Pod::Spec.new do |s|
 
   s.source_files  =  "Swift_Extension/**/*.swift"
 
-
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
