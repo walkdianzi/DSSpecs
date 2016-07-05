@@ -26,7 +26,11 @@ Pod::Spec.new do |s|
   s.source_files  = "Categories", "Categories/**/*.{h,m}"
   s.resource = "Categories/DSCategories.bundle"
   s.exclude_files = "Classes/Exclude"
-
   s.public_header_files = "Categories/**/*.h"
+
+  s.subspec 'NSString' do |ss|
+     ss.source_files = 'Categories/Foundation/NSString/*.{h,m}'
+     ss.public_header_files = 'Categories/Foundation/NSString/*.h'
+  end
 
 end
