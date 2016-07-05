@@ -33,4 +33,53 @@ Pod::Spec.new do |s|
      ss.public_header_files = 'Categories/Foundation/NSString/*.h'
   end
 
+  s.subspec 'NSArray' do |ss|
+     ss.source_files = 'Categories/Foundation/NSArray/*.{h,m}'
+     ss.public_header_files = 'Categories/Foundation/NSArray/*.h'
+  end
+
+  s.subspec 'NSData' do |ss|
+     ss.source_files = 'Categories/Foundation/NSData/*.{h,m}'
+     ss.public_header_files = 'Categories/Foundation/NSData/*.h'
+  end
+
+  s.subspec 'NSDictionary' do |ss|
+     ss.source_files = 'Categories/Foundation/NSDictionary/*.{h,m}'
+     ss.public_header_files = 'Categories/Foundation/NSDictionary/*.h'
+  end
+
+  s.subspec 'NSUserDefaults' do |ss|
+     ss.source_files = 'Categories/Foundation/NSUserDefaults/*.{h,m}'
+     ss.public_header_files = 'Categories/Foundation/NSUserDefaults/*.h'
+  end
+
+  s.subspec 'UIButton' do |ss|
+     ss.source_files = 'Categories/UIKits/UIButton/*.{h,m}'
+     ss.public_header_files = 'Categories/UIKits/UIButton/*.h'
+  end
+
+  s.subspec 'UIColor' do |ss|
+     ss.source_files = 'Categories/UIKits/UIColor/*.{h,m}'
+     ss.public_header_files = 'Categories/UIKits/UIColor/*.h'
+  end
+
+  s.subspec 'UIImage' do |ss|
+     ss.source_files = 'Categories/UIKits/UIImage/*.{h,m}'
+     ss.public_header_files = 'Categories/UIKits/UIImage/*.h'
+  end
+
+  s.subspec 'UITextView' do |ss|
+     ss.source_files = 'Categories/UIKits/UITextView/*.{h,m}'
+     ss.public_header_files = 'Categories/UIKits/UITextView/*.h'
+  end
+
+  s.subspec 'UIView' do |ss|
+     ss.source_files = 'Categories/UIKits/UIView/*.{h,m}'
+     ss.public_header_files = 'Categories/UIKits/UIView/*.h'
+  end
+
+  s.subspec 'UIViewController' do |ss|
+     ss.source_files = 'Categories/UIKits/UIViewController/*.{h,m}'
+     ss.public_header_files = 'Categories/UIKits/UIViewController/*.h'
+  end
 end
