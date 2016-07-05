@@ -23,10 +23,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/walkdianzi/DSCategories.git", :tag => "0.1.1" }
-  s.source_files  = "Categories", "Categories/**/*.{h,m}"
+  # s.source_files  = "Categories", "Categories/**/*.{h,m}"
   s.resource = "Categories/DSCategories.bundle"
   s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "Categories/**/*.h"
+  # s.public_header_files = "Categories/**/*.h"
 
   s.subspec 'NSString' do |ss|
      ss.source_files = 'Categories/Foundation/NSString/*.{h,m}'
