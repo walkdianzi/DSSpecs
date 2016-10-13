@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.version      = "0.1.4"
   s.summary      = "分类"
   s.description  = <<-DESC
-                      分类,UIButton+frame,UITextView+Placeholder,NSString+Size,NSArray+SafeAccess,NSDictionary+SafeAccess
+                      分,UIButton+frame,UITextView+Placeholder,NSString+Size,NSArray+SafeAccess,NSDictionary+SafeAccess
                    DESC
 
   s.homepage     = "https://github.com/walkdianzi/DSCategories"
